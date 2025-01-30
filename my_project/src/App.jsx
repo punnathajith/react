@@ -8,8 +8,8 @@ function App() {
     <>
      <h1>Hello world</h1>
      <h2>Count: {count} </h2>
-     <button onClick={()=>setCount(count+1)}>Add</button> { }
-     <button onClick={()=>setCount(count-1)}>Substract</button>
+     <button onClick={()=>setCount(count+1)}>+</button> { }
+     <button onClick={()=>setCount(count-1)}>-</button>
     </>
   )
 }
